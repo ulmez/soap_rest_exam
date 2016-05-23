@@ -39,7 +39,7 @@ com.eviware.soapui.SoapUI.globalProperties.setPropertyValue( "singlelng", single
   <con:entry key="sensor" value="false"/>
   <con:entry key="bounds" value="${norlat},${norlng}|34.236144,-118.500938"/>
   <con:entry key="address" value="Winnetka"/>
-</con:parameters></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="FetchResponse_Reverse" id="311c64a4-e3cf-4947-a7d0-75024b82137c"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+</con:parameters></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="FetchResponse_Reverse" id="311c64a4-e3cf-4947-a7d0-75024b82137c"><con:settings/><con:config><script>/*import groovy.json.JsonSlurper
 import groovy.json.JsonBuilder
 import groovy.json.JsonOutput
 
@@ -58,4 +58,4 @@ def norlng = new JsonOutput().toJson(response.results.geometry.location.lng.get(
 
 log.info(norlng)
 
-com.eviware.soapui.SoapUI.globalProperties.setPropertyValue( "norlng", norlng )</script></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:requirements/><con:properties><con:property><con:name>PlacesAPIKey</con:name><con:value/></con:property></con:properties><con:wssContainer/><con:databaseConnectionContainer/><con:oAuth2ProfileContainer/><con:reporting><con:reportTemplates/><con:xmlTemplates/><con:parameters/></con:reporting><con:sensitiveInformation/></con:soapui-project>
+com.eviware.soapui.SoapUI.globalProperties.setPropertyValue( "norlng", norlng )*/</script></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:requirements/><con:properties><con:property><con:name>PlacesAPIKey</con:name><con:value/></con:property></con:properties><con:wssContainer/><con:databaseConnectionContainer/><con:oAuth2ProfileContainer/><con:reporting><con:reportTemplates/><con:xmlTemplates/><con:parameters/></con:reporting><con:sensitiveInformation/></con:soapui-project>
